@@ -1,0 +1,8 @@
+def introduce(profession, age, country="India"):
+    print(f"I am a {age} year old {profession} coming from {country}")
+
+# Example usage:
+profession = input("Enter your profession: ")
+age = input("Enter your age: ")
+
+introduce(profession, age)   # country defaults to "India"
